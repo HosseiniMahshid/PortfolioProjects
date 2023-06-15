@@ -151,7 +151,7 @@ WHERE dea.continent IS NOT NULL
 
 
 
- -- CREATING TO STORE DATA FOR LATER VISUALIZATIONS
+ -- CREATING a View TO STORE DATA FOR LATER VISUALIZATIONS
 
  CREATE VIEW PercentPopulationVaccinated AS	
  SELECT dea.continent, dea.location, dea.date, dea.population, vac.new_vaccinations
